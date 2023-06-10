@@ -13,7 +13,7 @@ Repo to contain a program that solves a word square from an input of letters.
 # How To Use:
 1. Install python (https://www.python.org/downloads/)
 2. Run: `pip install requests` (Not completely necessary but if you want to investigate the word_helper.py then this will be needed)
-3. Open command line and navigate to the src folder.
+3. Open command line and navigate to the repo root folder.
 4. To run the solver, run: `python main.py arg1 arg2` where `arg1` is the number of words (n) and `arg2` is the string of letters of length n^2.
 5. If a word square is solved then the output will look like:  
 ```
@@ -26,7 +26,7 @@ a b o v e
 r e v u e  
 t r e e s
 ```  
-6. To run tests, ensuring we are still in the src folder, run: `python -m unittest discover` (takes roughly 5 minutes to run all cases).
+6. To run tests, ensuring we are still in the repo root folder, run: `python -m unittest discover` (takes roughly 5 minutes to run all cases).
 
 # Files Explained:
 1. **all_words.txt** - Contains the word list from "http://norvig.com/ngrams/enable1.txt" to be used in the running of the program incase the link doesn't work in the future.
