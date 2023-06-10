@@ -1,6 +1,3 @@
-from filter_words import FilterWords
-
-
 class WordSquareFinder:
     """
     Class to take a list of (pre-processed) words and methodically search over them to find
