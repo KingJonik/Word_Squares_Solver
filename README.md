@@ -29,14 +29,24 @@ t r e e s
 6. To run tests, ensuring we are still in the repo root folder, run: `python -m unittest discover` (takes roughly 5 minutes to run all cases).
 
 # Files Explained:
-1. **all_words.txt** - Contains the word list from "http://norvig.com/ngrams/enable1.txt" to be used in the running of the program incase the link doesn't work in the future.
-2. **word_helper.py** - Contains function to obtain the word list for the program and also one to re-download the list from the url just incase.
-3. **filter_words.py** - The original word list is huge and has many words that simply won't ever be possible for the letter + number of words (n) provided in the initial input, so the aim of this is to filter all_words down to just those that could actually be possible.
-4. **word_square_finder.py** - Takes the filtered words and uses a recursive algorithm to check a candidate word against the existing partial word square.
-Upon finding an acceptable new word, the list of possible words would be updated when entering the new recursive level as an efficiency measure.
-4. **test_cases.py** - Holds test cases used for development and debugging (takes roughly 5 minutes to run all cases).
-5. **test_helper.py** - Contains helpers for assessing the test case results.
-6. **main.py** - Combines and runs everything together.
+1. **all_words.txt**  
+- Contains the word list from "http://norvig.com/ngrams/enable1.txt" to be used in the running of the program incase the link doesn't work in the future.
+2. **word_helper.py**  
+- Contains function to obtain the word list for the program and also one to re-download the list from the url just incase.
+3. **filter_words.py**  
+- The original word list is huge and has many words that simply won't ever be possible for the letter + number of words (n) provided in the initial input, so the aim of this is to filter all_words down to just those that could actually be possible.  
+- Has a run() method to call in all other methods.
+4. **word_square_finder.py**  
+- Takes the filtered words and uses a recursive algorithm to check a candidate word against the existing partial word square.  
+- Upon finding an acceptable new word, the list of possible words would be updated when entering the new recursive level as an efficiency measure.  
+- Has a run() method to call in all other methods.
+5. **test_cases.py**  
+- Holds test cases used for development and debugging (takes roughly 5 minutes to run all cases).
+6. **test_helper.py**  
+- Contains helpers for assessing the test case results.
+7. **main.py**  
+- Combines and runs everything together.
+- Has a run() method to call in all other methods.
 
 # Example Cases:
 1. `4 eeeeddoonnnsssrv` - solution: rose oven send ends
