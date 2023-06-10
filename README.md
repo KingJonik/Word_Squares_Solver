@@ -8,7 +8,7 @@ Repo to contain a program that solves a word square from an input of letters.
 4. Has some efficiency measures:  
   a. A letter that only appears once in the input, must only appear on the negative diagonal.  
   b. The start of word_j (j > 0) must be equal to the j-th column of the existing word like this:  
-  <img width="320" alt="image" src="https://github.com/KingJonik/Word_Squares_Solver/assets/98259607/c624709d-3356-4980-9ed5-8f8bf0413606"> 
+  <img width="320" alt="image" src="https://github.com/KingJonik/Word_Squares_Solver/assets/98259607/c2f1a4cd-0e1e-4ac7-bbc1-c23ffe309440">
 
 # How To Use:
 1. Install python (https://www.python.org/downloads/)
